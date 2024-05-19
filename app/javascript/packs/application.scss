@@ -1,0 +1,24 @@
+/* ブラウザがそれぞれ持っているSCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;  //アイテムを中央付近にまとめる
+  background-color: #EC715F; //ヘッダーの背景色
+  justify-content: center; //アイテムを中央に寄せる
+}
